@@ -1,3 +1,4 @@
+
 // import logo from './logo.svg';
 //  import './App.css';
 
@@ -9,7 +10,7 @@
 //         <img src={logo} className="App-logo" alt="logo" />
 //         <p>
 //           Edit <code>src/App.js</code> and save to reload.
-            
+
 //         </p>   
 //         <a
 //           className="App-link"
@@ -19,9 +20,9 @@
 //         >
 //           Learn React
 //         </a>
-        
+
 //       </header>
-      
+
 //     </div>
 //   );
 
@@ -94,43 +95,42 @@
 // }
 // export default App;
 
- import './App.css';
- function App()
-{
-  return(
+import './App.css';
+function App() {
+  return (
     <section>
       <header>
-      <div className='circle'></div>
-      <div className='circles'></div>
-      <a href='#' class='logo'>Shop<span>ifty</span></a>
-      <ul>
-      <li><a href='#'>Home</a></li>
-      <li><a href='#'>About</a></li>
-      <li><a href='#'>Products</a></li>
-      <li><a href='#'>News</a></li>
-      <li><a href='#'>Contact</a></li>
-      </ul>
-      <p>Sign Up</p>
-            </header>
-            <div className='texts'>
-      <h1>Online <span>Shop</span> </h1> 
-      <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit.
- Velit maxime aliquid recusandae odit nostrum esse officiis 
-blanditiis asperiores, distinctio impedit possimus, autem 
-sapiente sit ullam et voluptas rem laboriosam consectetur ad 
-voluptates! In, sequi repellat? Sunt nam asperiores eum similique
-consectetur laboriosam eveniet. Inventore, quia vitae? Asperiores
-,eaque quis accusantium recusandae fuga rem, quaerat ipsa consequatu
- doloribus corporis at ad officiis enim culpa fugit laborum sunt 
- facere amet. Nulla, fuga exercitationem! Odit a quo blanditiis ad 
- eaque repellat, non dolor reiciendis tempore id doloribus esse 
- eligendi dolore, voluptatum suscipit ducimus dolorum autem ea hic 
- optio officiis! Beatae rerum quo molestiae.
-      </p>
+        <div className='circle'></div>
+        <div className='circles'></div>
+        <a href='#' class='logo'>Shop<span>ifty</span></a>
+        <ul>
+          <li><a href='#'>Home</a></li>
+          <li><a href='#'>About</a></li>
+          <li><a href='#'>Products</a></li>
+          <li><a href='#'>News</a></li>
+          <li><a href='#'>Contact</a></li>
+        </ul>
+        <p>Sign Up</p>
+      </header>
+      <div className='texts'>
+        <h1>Online <span>Shop</span> </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Velit maxime aliquid recusandae odit nostrum esse officiis
+          blanditiis asperiores, distinctio impedit possimus, autem
+          sapiente sit ullam et voluptas rem laboriosam consectetur ad
+          voluptates! In, sequi repellat? Sunt nam asperiores eum similique
+          consectetur laboriosam eveniet. Inventore, quia vitae? Asperiores
+          ,eaque quis accusantium recusandae fuga rem, quaerat ipsa consequatu
+          doloribus corporis at ad officiis enim culpa fugit laborum sunt
+          facere amet. Nulla, fuga exercitationem! Odit a quo blanditiis ad
+          eaque repellat, non dolor reiciendis tempore id doloribus esse
+          eligendi dolore, voluptatum suscipit ducimus dolorum autem ea hic
+          optio officiis! Beatae rerum quo molestiae.
+        </p>
       </div>
       <div className='background_image'>
-      <img src='image/bg1.png'/>
+        <img src={require('../src/image/bg1.png')}/>
       </div>
 
 
