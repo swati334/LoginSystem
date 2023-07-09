@@ -98,7 +98,9 @@
 import './App.css';
 function App() {
   return (
-    <section>
+  <div>
+    
+  <section>
       <header>
         <div className='circle'></div>
         <div className='circles'></div>
@@ -123,18 +125,147 @@ function App() {
           consectetur laboriosam eveniet. Inventore, quia vitae? Asperiores
           ,eaque quis accusantium recusandae fuga rem, quaerat ipsa consequatu
           doloribus corporis at ad officiis enim culpa fugit laborum sunt
-          facere amet. Nulla, fuga exercitationem! Odit a quo blanditiis ad
-          eaque repellat, non dolor reiciendis tempore id doloribus esse
-          eligendi dolore, voluptatum suscipit ducimus dolorum autem ea hic
-          optio officiis! Beatae rerum quo molestiae.
+          facere amet.
         </p>
       </div>
       <div className='background_image'>
         <img src={require('../src/image/bg1.png')}/>
       </div>
-
-
+      <div className="btn">
+        <p className='read'>Read More</p>
+        <p>Shop Now</p>
+      </div>
+  
     </section>
-  );
+    
+<div className='about'>
+<div className="box">
+  <div className="card">
+  <img src={require('../src/image/Computer.png')}/>
+  </div>
+  <div className="card">
+  <img src={require('../src/image/gift.png')}/>
+  </div>
+  <div className="card">
+  <img src={require('../src/image/t-shirt.png')}/>
+  </div>
+  <div className="card">
+  <img src={require('../src/image/food.png')}/>
+  </div>
+  <div className="card">
+  <img src={require('../src/image/mobile.png')}/>
+  </div>
+</div>
+<hr></hr>
+<div className="Clothes">
+
+  <h1>Products</h1>
+  <p>---Clothes----</p>
+  <div className="clothes_box">
+  <div className='clothes_card'>
+  <img src={require('../src/image/jerci1.png')}/>
+  <h1>Clothes</h1>
+  <p>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+  </p>
+  <a href="#"className='btn'>Read More</a>
+  </div>
+
+  <div className='clothes_card'>
+  <img src={require('../src/image/jerci2.png')}/>
+  <h1>Clothes</h1>
+  <p>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  </p>
+  <a href="#"className='btn'>Read More</a>
+
+  </div>
+
+  <div className='clothes_card'>
+  <img src={require('../src/image/jerci3.png')}/>
+  <h1>Clothes</h1>
+  <p>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  </p>
+  <a href="#"className='btn'>Read More</a>
+
+  </div>
+
+  <div className='clothes_card'>
+  <img src={require('../src/image/jerci4.png')}/>
+  <h1>Clothes</h1>
+  <p>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+  </p>
+  <a href="#"className='btn'>Read More</a>
+
+  </div>
+  </div>
+
+
+</div>
+<div className='Food'>
+
+  <p>----Food----</p>
+  <div className='food_box'>
+
+    <div className='food_card'>
+
+    <img src={require('../src/image/Burger.png')}/>
+    <h1>Food</h1>
+    <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+    </p>
+    <a href='#' className='btn'>Read More</a>
+    </div>
+
+    <div className='food_card'>
+
+<img src={require('../src/image/Hotdog.png')}/>
+<h1>Food</h1>
+<p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+</p>
+<a href='#' className='btn'>Read More</a>
+</div>
+
+<div className='food_card'>
+
+    <img src={require('../src/image/pizza.png')}/>
+    <h1>Food</h1>
+    <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+    </p>
+    <a href='#' className='btn'>Read More</a>
+    </div>
+
+    <div className='food_card'>
+<img src={require('../src/image/sandvich.png')}/>
+<h1>Food</h1>
+<p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+</p>
+<a href='#' className='btn'>Read More</a>
+
+</div>
+
+
+
+  </div>
+
+</div>
+</div>
+
+
+
+
+
+</div>
+
+);
 }
 export default App;
